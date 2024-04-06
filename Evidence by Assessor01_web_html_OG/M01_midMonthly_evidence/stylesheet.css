@@ -1,0 +1,97 @@
+/* table */
+table{
+    margin: 10px auto;
+    width: 40%;
+    height: 80px;
+    text-align: center ;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/* table end */
+
+
+/* form */
+form{
+    width: 40%;
+    margin: 5px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 10px 60px 0 #c2bec2;
+}
+legend{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+input, select{
+    margin-bottom: 8px;
+}
+input[type="number"],
+select, textarea{
+    width: 100%;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+.btn{
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+.btn-g{
+    background-color: rgb(16, 185, 16);
+    color: #fbf9f9;
+}
+.btn-r{
+    background-color: rgb(183, 14, 14);
+    color: #fbf9f9;
+}
+/* form end */
+
+/* menu */
+
+.menu{
+    width: 25%;
+    height: 100vh;
+    border: 1px solid black;
+    position: fixed;
+    margin: 0 2px 0 0;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.menu h2{
+    background-color: #13a1de;
+    margin: 2px 0;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(247, 246, 246);
+    padding: 5px;
+    width: 100%;
+}
+
+
+
+.menu a:hover {
+    background-color: #033a53;
+    padding: 1px;
+}
+
+.frame{
+    float: right;
+    width: 73%;
+    height: 100vh;
+    position: relative;
+    margin: 0 3px;
+    padding: 8px;
+    border: 1px solid #eae1e1;
+    box-sizing: border-box;
+}

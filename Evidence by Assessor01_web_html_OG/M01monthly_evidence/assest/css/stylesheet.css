@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.banner1{
+    background-color: #0888b3;
+    color: #ffffff;
+}
+
+
+.nav-link{
+    color: #000;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-link:hover{
+    color: #0d81a8;
+}
+.search{
+    height: 40px;
+    width: 50%;
+    outline: none;
+    border-color: #000000;
+    margin-right: -35px;
+    border-radius: 60px;
+    font-family: 'Rubik', sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 30%;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    background-color: #0888b3;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.fa-brands{
+   font-size: 30px;
+   line-height: 80px;
+   margin-right: 4px;
+   color: #0888b3;
+}

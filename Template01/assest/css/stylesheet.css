@@ -1,0 +1,8 @@
+.banner{
+    height: 100vh;
+    background-image: url(/image/BMW_F40_IMG_0432.jpg);
+}
+.footer-link a{
+    text-decoration: none;
+    color: #fff;
+}

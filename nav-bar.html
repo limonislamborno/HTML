@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav-bar</title>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        width: 100%;
+        height: 35px;
+        margin: 0;
+        background-color: rgb(20, 138, 98);
+    }
+
+    nav ul li{
+        list-style-type: none;
+        float: left;
+        margin: 5px 5px;
+
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-weight: 600;
+        color: antiquewhite;
+    }
+
+    nav ul li a:hover{
+        background-color: rgb(20, 138, 98);
+        color: rgb(32, 30, 30);
+        font-size: 20px;
+        text-decoration: underline black 2px;
+    }
+
+    #main{
+
+        width:100%;
+        height: 400px;
+        /* margin: 5px 20px 0px 2px; */
+    }
+
+    #first{
+        color: white;
+        height: 400px;
+        width: 400px;
+        background-color: rgb(2, 77, 102);
+        float: left;
+        border: solid black 3px;
+        padding: 5px;
+        margin: 5px 0px 0px 5px;
+        
+        
+    }
+
+    #second{
+        color: white;
+        height: 400px;
+        width: 400px;
+        background-color: rgb(89, 154, 174);
+        float: left;
+        margin: 5px 0px 0px 55px;
+        border: solid black 3px;
+        padding: 5px;
+        }
+
+    #third{
+        color: white;
+        height: 400px;
+        width: 400px;
+        background-color: rgb(166, 196, 208);
+        float: right;
+        border: solid black 3px;
+        padding: 5px;
+        margin: 5px 5px 0px 0px;
+    }
+
+    #paragraph{
+        width: 100%;
+        height: 30px;
+        margin: 20px 5px;
+        padding: 2px;
+    }
+</style>    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Class</a></li>
+            <li><a href="https://github.com/fatemazohor" target="_blank">Prjects</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+        <div id="first">First
+
+            <p>This is a paragraph.</p>
+            <p><bdo dir="rtl">ب.This is a paragraph. </bdo></p>
+            <p>This quote</p>
+            <blockquote cite="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tenetur deserunt, dolorem quod incidunt eaque vel amet numquam est obcaecati officia maiores explicabo vero nobis asperiores illum eius omnis. Reprehenderit.</blockquote>
+        </div>
+        <div id="second">Second</div>
+        <div id="third">Third</div>
+    </div>
+    <div id="paragraph">
+        <p>This is a paragraph.</p>
+            <p><bdo dir="rtl">ب.This is a paragraph. </bdo></p>
+            <p>This quote</p>
+            <blockquote cite="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tenetur deserunt, dolorem quod incidunt eaque vel amet numquam est obcaecati officia maiores explicabo vero nobis asperiores illum eius omnis. Reprehenderit.</blockquote>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/banner7.jpg) ;
+    background-size: cover;
+    position: 40% 40%;
+    color: #ffffff;
+}
+.banner h1{
+    font-family: 'Oswald', sans-serif;
+}
+.subh{
+    font-family: 'Roboto', sans-serif;
+
+}
+#aboutU{
+    background-color: #e6e6e6;
+}
+
+.fa-brands{
+    font-size: 30px;
+    line-height: 30px;
+    margin-right: 3px;
+}

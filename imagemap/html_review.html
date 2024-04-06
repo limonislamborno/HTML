@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html_review</title>
+<style>
+    table{
+        border-collapse: collapse;
+    }
+
+    .First col{ background-color: aqua;}
+</style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#map">Image-map</a></li>
+        </ul>
+    </nav>
+    <img src="h" alt="">
+    <table border="5px" width="80%" id="table">
+        <colgroup class="First">
+            <col span>
+        </colgroup>
+        <caption>Data Table</caption>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Contact</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Fatema</th>
+                <td>tuz Zohora</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                 <th>Fatema</th>
+                <td>tuz Zohora</td>
+                <td>15246</td>
+                <td>fatema</td>   
+            </tr>
+            <tr>
+                <th>Fatema</th>
+                <td>tuz Zohora</td>
+                <td>746565</td>
+                <td>sj#jdj</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tfoot>
+    </table>
+
+    <form action="">
+        <fieldset>
+            <legend>
+                Student Data
+            </legend>
+
+            <label for="fname">First Name</label>
+            <input type="text" placeholder="First Name" ><br>
+            <label for="fname">Last Name</label>
+            <input type="text" placeholder="Last Name" ><br>
+            <label for="fname">First Name</label>
+            <input type="text" placeholder="First Name" ><br>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="checkbox" value="WDPF" name="select">WDPF
+            <input type="button" value="Submit">
+            <input type="button" value="Reset">
+            <a href="First Project.html">First file</a><br>
+
+        </fieldset>
+    </form>
+
+    <!-- image link is on twitter profile photo circle shape -->
+    <img src="twfeed.JPG" alt="" usemap="#map" id="map">
+    <map name="map">
+        <area shape="rect" coords="20 10 80 60" href="twitter.png" alt="">
+    </map>
+</body>
+</html>
